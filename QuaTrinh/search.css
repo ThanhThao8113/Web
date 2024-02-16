@@ -1,0 +1,80 @@
+/*head*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Background color for the menu */
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.icon-logo-star path{
+    fill: white;
+}
+
+.menu a:hover {
+    background-color: black; /* Background color on hover */
+    color: orangered;
+}
+
+/*main*/
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    padding: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+.search{
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+.box{
+    flex: 1;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    padding:auto;
+    margin: 10px;
+    width: 80%;
+    height: 50px;
+}
+.box p{
+    margin: auto;
+}
+.btn{
+    margin: auto;
+    margin-left: 10px;
+}
+.text{
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.text.highlight{
+    color: yellow;
+}
+

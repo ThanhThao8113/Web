@@ -1,0 +1,9 @@
+Quá Trình: code web 
+Assignment2: code tic-tac-toe
+		-node -v
+		-npm create vite@latest
+		-đặt tên -> react -> javascript
+		
+		-cd (tên)
+		-npm install
+		-npm run dev

@@ -1,0 +1,209 @@
+/*head*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Background color for the menu */
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.icon-logo-star path{
+    fill: white;
+}
+
+.menu a:hover {
+    background-color: black; /* Background color on hover */
+    color: orangered;
+}
+
+/*main*/
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: dimgray;
+}
+.menu-content {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu-content li {
+    margin-right: 10px;
+}
+
+.menu-content a {
+    text-decoration: none;
+    color: orangered; /* Màu chữ cam */
+    margin: 0 10px;
+}
+main h1{
+    color: white;
+}
+.author-info{
+    color: #fff;
+}
+.content{
+    background-color: white; /* Màu nền trắng */
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 70%;
+    border-radius: 1%;
+    overflow: visible;
+}
+.box{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    white-space: pre;
+}
+.last-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.text {
+    flex: 3;
+    margin: 0 10px; /* Thêm margin nếu cần khoảng cách giữa các phần tử */
+    box-sizing: border-box; /* Đảm bảo padding và border không làm tăng kích thước thực của phần tử */
+    border-radius: 3%;
+    background-color: rgb(72, 76, 76);
+    color: white;
+    padding: 10px;
+}
+
+/*footer*/
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-message-and-form {
+    display: flex;
+    align-items: center;
+    flex: 1 1 100%;
+}
+.colophon{
+    font-size: 30px;
+    margin-right: auto;
+}
+.colophon a {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.footer-form-wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: dimgray;
+    padding: 15px;
+    margin-left: 10px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.footer-form-wrap h4 {
+    color: orangered;
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+.footer-form-wrap p{
+    margin-top: 10px;
+}
+.email-subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-top: 10px;
+}
+
+.email,
+.sub {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin: 0 5px;
+    height: 20px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.email {
+    background-color: white;
+    color:black;
+    width:75% ;
+}
+
+.sub {
+    display: flex;
+    background-color: gray;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-grid {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.link-grid div {
+    flex: 0 0 30%;
+    margin-right: 40px;
+}
+
+.link-grid h5 {
+    color: orangered;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.link-grid ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link-grid li {
+    margin-bottom: 5px;
+}
+
+.link-grid a {
+    color: gray;
+    text-decoration: none;
+}

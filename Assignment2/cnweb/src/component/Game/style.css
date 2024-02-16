@@ -1,0 +1,9 @@
+.red-border {
+    border: 2px solid red; /* Đổi màu sắc và độ rộng của viền nếu cần */
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
